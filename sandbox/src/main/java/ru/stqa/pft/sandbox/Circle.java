@@ -10,10 +10,10 @@ public class Circle {
     }
 
     public double area (){
-        return  3.14*r*r;
+        return  3.14*this.r*this.r;
     }
 
     public double dlOkr (){
-        return  2*3.14*r;
+        return  2*3.14*this.r;
     }
 }
